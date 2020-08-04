@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity4">
+
+    <fragment
+        android:layout_marginTop="55dp"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:text="@string/crime_heat_map"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/red_border"
+        android:textColor="#ffffff"
+        android:layout_gravity="left"
+        android:textSize="20dp" />
+
+
+
+</FrameLayout>

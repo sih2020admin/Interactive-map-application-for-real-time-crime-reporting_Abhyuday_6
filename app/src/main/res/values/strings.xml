@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">JanVictim</string>
+    <string name="janrakshak_app">Janrakshak Victim</string>
+    <string name="login">Login</string>
+    <string name="mobile">Mobile</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Close People</string>
+    <string name="menu_slideshow">My Emergency Complaints</string>
+    <string name="menu_tools">Good Citizen Response</string>
+    <string name="menu_share">My Profile</string>
+    <string name="menu_send">Crime Heat Map</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps3">Map</string>
+    <string name="title_activity_maps4">Map</string>
+
+
+    <string name="victim_login">Victim Login</string>
+    <string name="sent_otp">sent OTP</string>
+    <string name="verify_code">Verify Code</string>
+
+
+
+
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="next">Next</string>
+    <string name="notify_close_people">Notify Close People</string>
+
+    <string name="find_police">Find Police</string>
+
+    <string name="condition">Condition</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="sos_started">SOS started..</string>
+
+    <string name="location">Location</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="case_emergency_other">Case: Emergency Other</string>
+
+    <string name="pin_code">Pin Code</string>
+
+
+
+    <string name="close_person_2">Close Person 2</string>
+    <string name="close_person_1">Close Person 1</string>
+    <string name="known_police_optional">Known Police (Optional)</string>
+    <string name="add_close_people">Add Close People</string>
+    <string name="received_sms_from_your_friend">Received SMS from Your Friend?</string>
+    <string name="click_below_to_get_realtime_location">Click Below To Get Realtime Location.</string>
+    <string name="enter_friend_s_phone_number">Enter Friend\'s Phone Number</string>
+    <string name="get_friend_s_location">Get Friend\'s Location</string>
+    <string name="select_crime">Select Crime</string>
+
+    <string name="adhar_card_number">Adhar Card Number</string>
+
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+
+    <string name="edit_phone_number">Edit Phone Number</string>
+    <string name="address">Address</string>
+    <string name="cases">Case</string>
+
+    <string name="description">Description</string>
+    <string name="add_photo_optional">Add Photo (Optional)</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="good_citizen_response">Good Citizen Response</string>
+    <string name="crime_heat_map">Crime Heat Map</string>
+    <string name="emergency_helpline">Emergency Helpline</string>
+    <string name="my_account">My Account</string>
+    <string name="my_emergency_complaints">My Emergency Complaints</string>
+    <string name="my_close_people">My Close People</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_my_profile">Edit My Profile</string>
+    <string name="victim_section">Victim Section</string>
+    <string name="logout">Logout</string>
+
+    <string name="aadhaar_authentication">Aadhaar Authentication</string>
+</resources>

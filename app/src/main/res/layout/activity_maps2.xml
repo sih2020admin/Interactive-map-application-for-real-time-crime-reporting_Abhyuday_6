@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity2">
+
+    <fragment
+        android:layout_marginTop="55dp"
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/victimView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/black_border">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/proImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1sp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/VName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/name"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/VPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/phone"
+            android:drawableRight="@drawable/ic_call_black_24dp_new"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/VLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/location"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/VGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/gender"
+            android:textColor="#ffffff"
+            android:layout_gravity="left"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="315dp"
+        android:text="@string/hide"
+        android:background="@drawable/black_border"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:text="@string/show"
+        android:background="@drawable/black_border"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/condition"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/black_border"
+        android:textColor="#ffffff"
+        android:layout_gravity="left"
+        android:textSize="20dp" />
+
+
+</FrameLayout>

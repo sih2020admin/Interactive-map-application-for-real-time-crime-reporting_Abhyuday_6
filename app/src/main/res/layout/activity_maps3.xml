@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="52dp">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map3"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/victimView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/black_border">
+
+        <TextView
+            android:id="@+id/VName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/name"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/VPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/phone"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/VLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/location"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/VGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="@string/gender"
+            android:textColor="#ffffff"
+            android:layout_gravity="left"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/caseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/black_border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/case_emergency_other"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="255dp"
+        android:text="@string/hide"
+
+        android:background="@drawable/black_border"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:text="@string/show"
+        android:background="@drawable/black_border"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/findPoliceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/black_border"
+        android:text="@string/sos_started"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/buttonclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="65dp">
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
+

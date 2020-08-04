@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#ffff"
+    android:elevation="90dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/post_cases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Case:"
+            android:textAllCaps="true"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/post_victimName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Victim Name:"
+            android:textAllCaps="true"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/post_dateReq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Date Request:"
+            android:textAllCaps="true"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/post_dateComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Date Complete:"
+            android:textAllCaps="true"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
